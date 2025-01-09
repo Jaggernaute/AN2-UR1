@@ -27,19 +27,17 @@
 %% Only uncommented files are included (faster compilation)
 %% NOTE: If no files are uncommented, all files are included
 \includeonlysmart{
-    % frontmatter/title,
-    % frontmatter/declaration,
-    % frontmatter/dedication,
-    % frontmatter/information,
-    % chapters/Introduction,
-    % chapters/QuickSummary,
-    % chapters/Notation,
-    % chapters/Design,
-    % chapters/Usage,
-    % chapters/Features,
-    % chapters/Tips,
-    % chapters/Summary,
-    % chapters/Appendix,
+    frontmatter/title,
+    chapters/Introduction,
+    chapters/QuickSummary,
+    chapters/Summary,
+    chapters/Functions,
+    chapters/Integrals,
+    chapters/Series,
+    chapters/Differential-Equations,
+    chapters/Coordinate-Systems,
+    chapters/Fourier,
+    chapters/Appendix,
 }
 
 \begin{document}
@@ -54,14 +52,15 @@
 
 \include{chapters/Introduction}
 \include{chapters/QuickSummary}
-\include{chapters/Notation}
 
 \mainmatter
-\include{chapters/Design}
-\include{chapters/Usage}
-\include{chapters/Features}
-\include{chapters/Tips}
 \include{chapters/Summary}
+\include{chapters/Functions}
+\include{chapters/Integrals}
+\include{chapters/Series}
+\include{chapters/Differential-Equations}
+\include{chapters/Coordinate-Systems}
+\include{chapters/Fourier}
 
 \appendix
 \include{chapters/Appendix}

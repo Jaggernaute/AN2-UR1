@@ -1,9 +1,7 @@
 \currentpdfbookmark{Title Page}{titlepage} % add PDF outline entry
 \thispagestyle{empty} % no number on the title page
 \begin{center}
-    \begin{adjustbox}{center,trim=0 0.2cm 4cm 0.2cm}
-        \includegraphics[width=1.5\textwidth]{MFF-logo.pdf}
-    \end{adjustbox}
+    \includegraphics[width=0.75\textwidth]{logo.png}
 
     \Large
 
@@ -11,7 +9,7 @@
     \vfill
 
     {\ifFANCY\sffamily\Huge\else\bfseries\LARGE\fi
-        \MakeUppercase{\ThesisType} THESIS}
+        \MakeUppercase{\ThesisType} class notes}
 
     \vfill
 
@@ -36,9 +34,9 @@
         \large
         \renewcommand{\arraystretch}{1.2}
         \begin{tabular}{>{\sffamily\color{Gray40}}r @{\hspace{1.0em}} l}
-            Supervisor of the Thesis    & \Supervisor     \\
+            AN2 supervisor    & \Supervisor     \\
             \ifdef{\CoSupervisor}{%
-            Co-Supervisor of the Thesis & \CoSupervisor   \\
+            OM supervisor & \CoSupervisor   \\
             }{}
             \ifdef{\StudyProgramme}{% TODO: programme vs program?
             Study Programme             & \StudyProgramme \\
@@ -49,7 +47,7 @@
     \vspace{2em}
 
     \ifFANCY\sffamily\fi
-    Prague \YearSubmitted \\
+    Rennes \YearSubmitted \\
     \ifdef{\YearRevision}{%
         \emph{Revised version \YearRevision} \par
     }{}
