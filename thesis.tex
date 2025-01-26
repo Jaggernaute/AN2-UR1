@@ -16,7 +16,7 @@
 \newif\ifCENSOR
 %% NOTE: Comment out the following lines for the final version
 \WIPtrue % THIS IS A WORK-IN-PROGRESS VERSION
-\CENSORtrue % THIS IS A CENSORED VERSION
+%\CENSORtrue % THIS IS A CENSORED VERSION
 
 \newif\ifFANCY
 \FANCYtrue % enable some of the more fancy stylistic choices
@@ -30,14 +30,13 @@
     frontmatter/title,
     chapters/Introduction,
     chapters/QuickSummary,
-    chapters/Summary,
     chapters/Functions,
     chapters/Integrals,
     chapters/Series,
     chapters/Differential-Equations,
     chapters/Coordinate-Systems,
     chapters/Fourier,
-    chapters/Appendix,
+    %chapters/Appendix,
 }
 
 \begin{document}
@@ -54,7 +53,6 @@
 \include{chapters/QuickSummary}
 
 \mainmatter
-\include{chapters/Summary}
 \include{chapters/Functions}
 \include{chapters/Integrals}
 \include{chapters/Series}

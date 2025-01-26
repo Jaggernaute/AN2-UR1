@@ -2,9 +2,9 @@
 \NewExpandableDocumentCommand{\ThesisType}{}{L2 ISTN}
 
 %% Thesis title (exactly as in the formal assignment)
-\NewExpandableDocumentCommand{\ThesisTitle}{}{Mathematics third semester}
+\NewExpandableDocumentCommand{\ThesisTitle}{}{Mathematics $3^\text{\`eme}$ semestre}
 %% Plaintext version for PDF metadata, uncomment if needed (defauls to \ThesisTitle)
-\NewExpandableDocumentCommand{\ThesisTitlePlaintext}{}{Mathematics third semester}
+\NewExpandableDocumentCommand{\ThesisTitlePlaintext}{}{Mathematics $3^\text{\`eme}$ semestre}
 %% Thesis title (if custom formatting is needed for the title page, defauls to \ThesisTitle)
 \NewExpandableDocumentCommand{\ThesisTitleFront}{}{
     \ThesisTitle\\
@@ -44,8 +44,7 @@
 \NewDocumentCommand{\StudyProgramme}{}{\textcolor{red}{L2 ISTN}}
 
 %% Abstract (recommended length around 80-200 words; this is not a copy of your thesis assignment!)
-\NewDocumentCommand{\Abstract}{}{%
-    \textcolor{red}{This course provides the tools and prerequisites in analysis necessary to successfully follow subsequent courses in probability and electronics. The topics covered are not necessarily explored in great theoretical depth, but the emphasis will be on problem-solving methods. The main objectives of this course are to learn how to integrate a function over \(\mathbb{R}\) (generalized integrals) and to sum simple power series. Students will be required to carefully document their solutions.}
+\NewDocumentCommand{\Abstract}{}{
 }
 
 %% Subject (short description for PDF metadata)
